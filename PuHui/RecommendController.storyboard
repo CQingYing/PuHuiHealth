@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Tf-q0-x3e">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Recommend Controller-->
+        <scene sceneID="2bg-Xi-r3M">
+            <objects>
+                <viewController id="2Tf-q0-x3e" customClass="RecommendController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zGf-WR-DTt"/>
+                        <viewControllerLayoutGuide type="bottom" id="mWm-b9-8FW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5fm-X3-0JE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VQM-tx-azY">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="AwA-jj-7Gy"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="内部推荐"/>
+                                    <segment title="推荐历史"/>
+                                </segments>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AwA-jj-7Gy"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AwA-jj-7Gy"/>
+                                    </mask>
+                                </variation>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VQM-tx-azY" firstAttribute="leading" secondItem="5fm-X3-0JE" secondAttribute="leading" constant="20" id="Chl-5m-Yv3"/>
+                            <constraint firstItem="VQM-tx-azY" firstAttribute="top" secondItem="zGf-WR-DTt" secondAttribute="bottom" constant="8" id="dxy-d6-Iyq"/>
+                            <constraint firstAttribute="trailing" secondItem="VQM-tx-azY" secondAttribute="trailing" constant="20" id="kxS-5j-ZQo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="VQM-tx-azY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Chl-5m-Yv3"/>
+                                <exclude reference="dxy-d6-Iyq"/>
+                                <exclude reference="kxS-5j-ZQo"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="VQM-tx-azY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Chl-5m-Yv3"/>
+                                <include reference="dxy-d6-Iyq"/>
+                                <include reference="kxS-5j-ZQo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="reconmmentSeg" destination="VQM-tx-azY" id="Alc-nZ-Rud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8AC-nE-Zyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="211" y="457"/>
+        </scene>
+    </scenes>
+</document>

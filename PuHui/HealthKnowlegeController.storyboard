@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YId-1W-ziS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Health Knowlege Controller-->
+        <scene sceneID="1DY-o7-YWK">
+            <objects>
+                <viewController storyboardIdentifier="HealthKnowlegeController" id="YId-1W-ziS" customClass="HealthKnowlegeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ts5-JR-32D"/>
+                        <viewControllerLayoutGuide type="bottom" id="oyc-nU-SJd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U3h-bc-Ke4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1WQ-3x-hqe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7lp-ub-GsA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="eEl-It-ybQ"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="eEl-It-ybQ"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="eEl-It-ybQ"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="7lp-ub-GsA" secondAttribute="bottom" constant="50" id="RWD-lX-0OH"/>
+                                    <constraint firstAttribute="centerX" secondItem="7lp-ub-GsA" secondAttribute="centerX" id="puh-lQ-h9P"/>
+                                    <constraint firstAttribute="trailing" secondItem="7lp-ub-GsA" secondAttribute="trailing" id="t90-7e-Bc3"/>
+                                    <constraint firstItem="7lp-ub-GsA" firstAttribute="top" secondItem="1WQ-3x-hqe" secondAttribute="top" id="ySo-6Q-Lit"/>
+                                    <constraint firstItem="7lp-ub-GsA" firstAttribute="leading" secondItem="1WQ-3x-hqe" secondAttribute="leading" id="z2m-eb-bmk"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="7lp-ub-GsA"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="RWD-lX-0OH"/>
+                                        <exclude reference="puh-lQ-h9P"/>
+                                        <exclude reference="t90-7e-Bc3"/>
+                                        <exclude reference="ySo-6Q-Lit"/>
+                                        <exclude reference="z2m-eb-bmk"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="7lp-ub-GsA"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="RWD-lX-0OH"/>
+                                        <include reference="puh-lQ-h9P"/>
+                                        <include reference="t90-7e-Bc3"/>
+                                        <include reference="ySo-6Q-Lit"/>
+                                        <include reference="z2m-eb-bmk"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1WQ-3x-hqe" firstAttribute="leading" secondItem="U3h-bc-Ke4" secondAttribute="leading" id="YP8-jL-wtj"/>
+                            <constraint firstAttribute="trailing" secondItem="1WQ-3x-hqe" secondAttribute="trailing" id="edV-i7-hUO"/>
+                            <constraint firstItem="1WQ-3x-hqe" firstAttribute="top" secondItem="Ts5-JR-32D" secondAttribute="bottom" id="gL3-yL-5ER"/>
+                            <constraint firstItem="oyc-nU-SJd" firstAttribute="top" secondItem="1WQ-3x-hqe" secondAttribute="bottom" id="wNF-Ea-jaj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1WQ-3x-hqe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="wNF-Ea-jaj"/>
+                                <exclude reference="YP8-jL-wtj"/>
+                                <exclude reference="edV-i7-hUO"/>
+                                <exclude reference="gL3-yL-5ER"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1WQ-3x-hqe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="wNF-Ea-jaj"/>
+                                <include reference="YP8-jL-wtj"/>
+                                <include reference="edV-i7-hUO"/>
+                                <include reference="gL3-yL-5ER"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mainHeiCons" destination="eEl-It-ybQ" id="Wyu-VA-hmy"/>
+                        <outlet property="mainView" destination="7lp-ub-GsA" id="u8T-RQ-pm9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x1h-ZG-FxB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472.5" y="266.25"/>
+        </scene>
+    </scenes>
+</document>

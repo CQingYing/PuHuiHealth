@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="101" id="KGk-i7-Jjw" customClass="SelectBranchCourtsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bjm-fx-8vE">
+                        <rect key="frame" x="8" y="4" width="304" height="92"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_03" translatesAutoresizingMaskIntoConstraints="NO" id="rs1-wM-g6u">
+                                <rect key="frame" x="8" y="8" width="76" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="lyH-5D-T7T"/>
+                                    <constraint firstAttribute="height" constant="76" id="og7-uq-ZjW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="西安劳动南路分院" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DR-sc-nTc">
+                                <rect key="frame" x="92" y="8" width="204" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9yG-Ht-sfe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cellSpaceImage" translatesAutoresizingMaskIntoConstraints="NO" id="0ym-yH-cB9">
+                                <rect key="frame" x="92" y="42" width="6" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="6" id="dCs-Qt-s85"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预约电话:1843543523" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsT-Qi-ySN">
+                                <rect key="frame" x="106" y="42" width="172" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="xJC-eU-F6F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="营业时间:周一至周五8:20-12:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4n1-4F-n2d">
+                                <rect key="frame" x="106" y="72" width="190" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="BJ4-Of-fye"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="详细地址:雁塔区丈八沟街道男摇头" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ct3-D6-cSQ">
+                                <rect key="frame" x="106" y="57" width="190" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="1uD-vy-rhZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Wkk-3P-oJb">
+                                <rect key="frame" x="286" y="37" width="10" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="EOS-4G-Wue"/>
+                                    <constraint firstAttribute="width" constant="10" id="Tnc-Ok-Pd8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wkk-3P-oJb" firstAttribute="top" secondItem="6DR-sc-nTc" secondAttribute="bottom" constant="8" id="0vg-F3-JAl"/>
+                            <constraint firstItem="rs1-wM-g6u" firstAttribute="top" secondItem="Bjm-fx-8vE" secondAttribute="top" constant="8" id="2A1-7j-k3J"/>
+                            <constraint firstAttribute="trailing" secondItem="6DR-sc-nTc" secondAttribute="trailing" constant="8" id="7Vx-Ji-QbE"/>
+                            <constraint firstAttribute="trailing" secondItem="Ct3-D6-cSQ" secondAttribute="trailing" constant="8" id="8Dq-h5-0Hi"/>
+                            <constraint firstItem="4n1-4F-n2d" firstAttribute="top" secondItem="Ct3-D6-cSQ" secondAttribute="bottom" constant="3" id="8fq-ol-AFI"/>
+                            <constraint firstItem="Wkk-3P-oJb" firstAttribute="leading" secondItem="zsT-Qi-ySN" secondAttribute="trailing" constant="8" id="DxA-QN-qRw"/>
+                            <constraint firstItem="4n1-4F-n2d" firstAttribute="leading" secondItem="0ym-yH-cB9" secondAttribute="trailing" constant="8" id="E5c-a2-Mnc"/>
+                            <constraint firstAttribute="bottom" secondItem="0ym-yH-cB9" secondAttribute="bottom" constant="8" id="Et2-ob-4uK"/>
+                            <constraint firstItem="6DR-sc-nTc" firstAttribute="top" secondItem="Bjm-fx-8vE" secondAttribute="top" constant="8" id="GdK-ps-WbT"/>
+                            <constraint firstItem="Ct3-D6-cSQ" firstAttribute="leading" secondItem="0ym-yH-cB9" secondAttribute="trailing" constant="8" id="HuT-cl-s6m"/>
+                            <constraint firstItem="0ym-yH-cB9" firstAttribute="top" secondItem="6DR-sc-nTc" secondAttribute="bottom" constant="13" id="IP8-uI-Dye"/>
+                            <constraint firstItem="6DR-sc-nTc" firstAttribute="leading" secondItem="rs1-wM-g6u" secondAttribute="trailing" constant="8" id="Kms-yf-oDJ"/>
+                            <constraint firstItem="0ym-yH-cB9" firstAttribute="leading" secondItem="rs1-wM-g6u" secondAttribute="trailing" constant="8" id="X10-CB-hKp"/>
+                            <constraint firstItem="zsT-Qi-ySN" firstAttribute="top" secondItem="6DR-sc-nTc" secondAttribute="bottom" constant="13" id="ehM-aO-uB5"/>
+                            <constraint firstItem="rs1-wM-g6u" firstAttribute="leading" secondItem="Bjm-fx-8vE" secondAttribute="leading" constant="8" id="gz1-aj-soi"/>
+                            <constraint firstAttribute="trailing" secondItem="Wkk-3P-oJb" secondAttribute="trailing" constant="8" id="lPw-S2-Vd0"/>
+                            <constraint firstItem="Ct3-D6-cSQ" firstAttribute="top" secondItem="zsT-Qi-ySN" secondAttribute="bottom" constant="3" id="mM5-kU-Yks"/>
+                            <constraint firstItem="zsT-Qi-ySN" firstAttribute="leading" secondItem="0ym-yH-cB9" secondAttribute="trailing" constant="8" id="mfY-9Q-TnT"/>
+                            <constraint firstAttribute="trailing" secondItem="4n1-4F-n2d" secondAttribute="trailing" constant="8" id="vU4-cC-2SU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Bjm-fx-8vE" secondAttribute="bottom" constant="4" id="HA7-Z7-O7W"/>
+                    <constraint firstItem="Bjm-fx-8vE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="IMd-vs-xVW"/>
+                    <constraint firstItem="Bjm-fx-8vE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="SlK-Wq-faM"/>
+                    <constraint firstAttribute="trailing" secondItem="Bjm-fx-8vE" secondAttribute="trailing" constant="8" id="yUz-F6-i6c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addLabel" destination="Ct3-D6-cSQ" id="d9j-RA-OEv"/>
+                <outlet property="nameLabel" destination="6DR-sc-nTc" id="eqH-9Y-TXl"/>
+                <outlet property="phoneLabel" destination="zsT-Qi-ySN" id="Lsu-Qp-JHF"/>
+                <outlet property="picIng" destination="rs1-wM-g6u" id="1c0-ZJ-eZs"/>
+                <outlet property="timeLabel" destination="4n1-4F-n2d" id="WPf-DF-Ucz"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="377.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cellSpaceImage" width="4" height="28"/>
+        <image name="person_arrow" width="8" height="14"/>
+        <image name="photo_03" width="60" height="60"/>
+    </resources>
+</document>

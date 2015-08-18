@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="KGk-i7-Jjw" customClass="TestResultCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personnotcheckbox" translatesAutoresizingMaskIntoConstraints="NO" id="O3R-bp-N7o">
+                        <rect key="frame" x="16" y="32" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="CSW-m6-Gvv"/>
+                            <constraint firstAttribute="height" constant="15" id="RTY-eb-RVm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="血常规检查" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhm-XZ-krv">
+                        <rect key="frame" x="39" y="29" width="160" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8Ih-9Y-5kk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCz-Ui-isl">
+                        <rect key="frame" x="262" y="10" width="50" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="K7O-Lr-ahn"/>
+                            <constraint firstAttribute="width" constant="50" id="r5f-et-Iq4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原价:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPY-Wp-L84">
+                        <rect key="frame" x="223" y="10" width="37" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="moO-rQ-PzG"/>
+                            <constraint firstAttribute="width" constant="37" id="pzl-bP-CST"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckF-Lw-RBw">
+                        <rect key="frame" x="262" y="41" width="50" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="HJJ-hm-atP"/>
+                            <constraint firstAttribute="height" constant="21" id="VrR-WJ-LI4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="折扣价:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aek-Yv-9j4">
+                        <rect key="frame" x="207" y="41" width="54" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="54" id="2t0-gL-eON"/>
+                            <constraint firstAttribute="height" constant="21" id="sPT-dh-gK4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未选中" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJe-Me-vPm">
+                        <rect key="frame" x="63" y="0.0" width="60" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Nr0-nS-Dkw"/>
+                            <constraint firstAttribute="height" constant="21" id="t2L-KA-tzD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vhm-XZ-krv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="78W-4v-HSa"/>
+                    <constraint firstItem="O3R-bp-N7o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="32" id="BEa-dQ-68a"/>
+                    <constraint firstItem="O3R-bp-N7o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Bpj-iL-U7V"/>
+                    <constraint firstItem="RPY-Wp-L84" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="L3L-kD-oBG"/>
+                    <constraint firstItem="Aek-Yv-9j4" firstAttribute="leading" secondItem="Vhm-XZ-krv" secondAttribute="trailing" constant="8" id="Rqz-d9-7z1"/>
+                    <constraint firstItem="HJe-Me-vPm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="63" id="TG2-NK-kBi"/>
+                    <constraint firstItem="Aek-Yv-9j4" firstAttribute="top" secondItem="RPY-Wp-L84" secondAttribute="bottom" constant="10" id="XzV-hw-xJ5"/>
+                    <constraint firstItem="HJe-Me-vPm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bhI-bQ-Xf5"/>
+                    <constraint firstItem="JCz-Ui-isl" firstAttribute="leading" secondItem="RPY-Wp-L84" secondAttribute="trailing" constant="2" id="iQh-Px-W1G"/>
+                    <constraint firstItem="ckF-Lw-RBw" firstAttribute="leading" secondItem="Aek-Yv-9j4" secondAttribute="trailing" constant="1" id="lrT-Ij-yKa"/>
+                    <constraint firstAttribute="trailing" secondItem="JCz-Ui-isl" secondAttribute="trailing" constant="8" id="mhh-2O-RbJ"/>
+                    <constraint firstItem="ckF-Lw-RBw" firstAttribute="top" secondItem="JCz-Ui-isl" secondAttribute="bottom" constant="10" id="qL3-rj-E1p"/>
+                    <constraint firstItem="JCz-Ui-isl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="s4Y-Ch-hbC"/>
+                    <constraint firstItem="Vhm-XZ-krv" firstAttribute="leading" secondItem="O3R-bp-N7o" secondAttribute="trailing" constant="8" id="t25-uf-0LX"/>
+                    <constraint firstAttribute="trailing" secondItem="ckF-Lw-RBw" secondAttribute="trailing" constant="8" id="vfQ-Su-M0i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="isCheckBox" destination="O3R-bp-N7o" id="h4m-cH-8Dy"/>
+                <outlet property="isSele" destination="HJe-Me-vPm" id="yKe-gD-Ayx"/>
+                <outlet property="labA" destination="RPY-Wp-L84" id="jdZ-aj-oa4"/>
+                <outlet property="labB" destination="Aek-Yv-9j4" id="XvK-lR-vWl"/>
+                <outlet property="nameLab" destination="Vhm-XZ-krv" id="dfq-6g-xxs"/>
+                <outlet property="priceLab" destination="JCz-Ui-isl" id="ZOA-Bz-BWW"/>
+                <outlet property="realPriceLab" destination="ckF-Lw-RBw" id="oBd-uh-HMB"/>
+            </connections>
+            <point key="canvasLocation" x="345" y="298"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="personnotcheckbox" width="14" height="14"/>
+    </resources>
+</document>

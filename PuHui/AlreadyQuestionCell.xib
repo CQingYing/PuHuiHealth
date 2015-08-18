@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="88" id="KGk-i7-Jjw" customClass="AlreadyQuestionCell">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C3k-yX-JyV">
+                        <rect key="frame" x="16" y="8" width="320" height="71"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionImgView" translatesAutoresizingMaskIntoConstraints="NO" id="3nm-yt-ZZm">
+                                <rect key="frame" x="8" y="8" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="3TN-r0-kzX"/>
+                                    <constraint firstAttribute="height" constant="55" id="a41-ii-n0M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="这几天腿痛怎么处理？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffX-jC-cdB">
+                                <rect key="frame" x="71" y="26" width="241" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015-07-08" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHh-wQ-qNh">
+                                <rect key="frame" x="179" y="8" width="133" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="TqF-Vd-byY"/>
+                                    <constraint firstAttribute="height" constant="10" id="Txm-4B-jEV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3nm-yt-ZZm" firstAttribute="top" secondItem="C3k-yX-JyV" secondAttribute="top" constant="8" id="2GM-sK-rLs"/>
+                            <constraint firstItem="3nm-yt-ZZm" firstAttribute="leading" secondItem="C3k-yX-JyV" secondAttribute="leading" constant="8" id="5Oq-fp-w0B"/>
+                            <constraint firstItem="iHh-wQ-qNh" firstAttribute="top" secondItem="C3k-yX-JyV" secondAttribute="top" constant="8" id="92J-GG-XNe"/>
+                            <constraint firstAttribute="trailing" secondItem="iHh-wQ-qNh" secondAttribute="trailing" constant="8" id="kdU-cf-1Ql"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="C3k-yX-JyV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="6na-IK-VO3"/>
+                    <constraint firstAttribute="trailing" secondItem="C3k-yX-JyV" secondAttribute="trailing" constant="16" id="I1J-z9-1Nw"/>
+                    <constraint firstAttribute="bottom" secondItem="C3k-yX-JyV" secondAttribute="bottom" constant="8" id="YmQ-79-OkR"/>
+                    <constraint firstItem="C3k-yX-JyV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="cSk-72-by3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="iHh-wQ-qNh" id="O8b-Mu-EdF"/>
+                <outlet property="mainView" destination="C3k-yX-JyV" id="uvl-K6-2h0"/>
+                <outlet property="nainTiltle" destination="ffX-jC-cdB" id="Db1-JQ-HAD"/>
+                <outlet property="photoIcon" destination="3nm-yt-ZZm" id="XTN-Ka-UmL"/>
+            </connections>
+            <point key="canvasLocation" x="241" y="451"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="questionImgView" width="52" height="52"/>
+    </resources>
+</document>

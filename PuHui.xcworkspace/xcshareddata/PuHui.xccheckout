@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C04B711C-735A-4607-87F6-D4B658E3353C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PuHui</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3d7d40ff-1a58-b84f-a6e3-27dafde3e6d9</key>
+		<string>https://122.114.59.135/svn/jiankangtijian</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>一期/04.开发/ios/PuHui/PuHui.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3d7d40ff-1a58-b84f-a6e3-27dafde3e6d9</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3d7d40ff-1a58-b84f-a6e3-27dafde3e6d9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3d7d40ff-1a58-b84f-a6e3-27dafde3e6d9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jiankangtijian</string>
+		</dict>
+	</array>
+</dict>
+</plist>

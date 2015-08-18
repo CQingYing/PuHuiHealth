@@ -1,0 +1,63 @@
+//
+//  PuHui-Prefix.pch
+//  PuHui
+//
+//  Created by ji junjie on 15/7/9.
+//  Copyright (c) 2015年 Lq. All rights reserved.
+//
+
+#ifndef PuHui_PuHui_Prefix_pch
+#define PuHui_PuHui_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "AppDelegate.h"
+#import "MBProgressHUD.h"
+#import "RequestServer.h"
+#import "UIImage+ResizeImage.h"
+#endif
+
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+//AppDelgate
+#define TheAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+#pragma mark - 颜色
+//RGB颜色
+#define rgbColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+//导航条leftItem颜色
+#define navbarLeftItemColor [UIColor blackColor]
+//预约进度条背景
+#define reserveProgressbgColor rgbColor(30,30,30)
+
+#pragma mark -
+//普惠健康接口请求地址
+#define PHJKRequestUrl @"http://xalanqi.xicp.net:8081/PuhuiServer/"
+//普惠渠道接口请求地址
+#define PHQDRequestUrl @"http://124.114.200.98:8099/PHAppServer/"
+//普惠业务接口请求地址
+#define PHYWRequestUrl @"http://124.114.200.98:8099/PHAppServer/"
+
+
+
+/**
+ *  获得地区信息
+ *  url=URL_API_HOST+"PHAppServer/getCityList.action"
+ *  let HTTP = "http://"
+ let HTTPS = "https://"
+ let URL_SPLITTER = "/"
+ let URL_UNDERLINE = "_"
+ let PRO_NAME = "PHAppServer"//PuhuiServer,PHAppServer
+ let URL_API_HOST = HTTP + HOST + URL_SPLITTER
+ let HOST = "124.114.200.98:8099"/
+ */
+#endif
